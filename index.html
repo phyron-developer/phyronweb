@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="./project5.css">
+    <title>project5</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">PHYRON-CODING</div>
+            <ul>
+                <li><i class="fa-brands fa-telegram"></i>&nbsp;<a href="https://t.me/@phyronu" target="_blank">(+855) 699 976 75</a></li>
+                <button id="btn-login"><i class="fa-solid fa-user"></i>&nbsp;Login</button>
+            </ul>
+        </div>
+    </header>
+    
+    <!-- <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./image.png" alt=""></div>
+          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+          <div class="swiper-slide">Slide 4</div>
+          <div class="swiper-slide">Slide 5</div>
+          <div class="swiper-slide">Slide 6</div>
+          <div class="swiper-slide">Slide 7</div>
+          <div class="swiper-slide">Slide 8</div>
+          <div class="swiper-slide">Slide 9</div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div> -->
+    <div class="main-box">
+        <h1>ភីរុណកូដដ៊ិងស៍​ ~ <span id="color">Phyron-Coding</span> </h1>
+        <h5>គេហទំព័រ(Website) <span style="color: var(--color);">Phyron-Coding.com</span> ផ្ដល់ឱ្យអ្នកនូវវគ្គសិក្សាដែលមានគុណភាពល្អជាច្រើន ហើយលោកអ្នកក៏មាននៅក្រុមពិភាគ្សាក្នុង Channel Telegram ផងដែរ។</h5>
+    </div>
+    <div class="form">
+        <div class="register">
+            <p style="font-size: 23px;">Login Account</p>
+            <i style="color: black; cursor: pointer;" class="fa-solid fa-xmark btn-close"></i>
+        </div>
+        <div class="frm">
+            <form action="" class="form11">
+                <label for="">Email Students :</label><br>
+                <input type="email" name="email" id="email" placeholder="Enter email..."><br>
+                <label for="">Password :</label><br>
+                <input type="password" name="password" id="password" placeholder="Enter password...">
+                <button type="submit" id="btn-sub">Login</button>
+                <div class="a">
+                    <a style="text-align: center;" href="">Already have an account?</a>
+                </div>
+                <button type="button" id="sign-in">Sign In</button>
+            </form>
+        </div>
+    </div>
+    
+    <div class="skill">
+        <div class="skill-box">
+            <h1 style="text-align: center; color: var(--color);">My Skills</h1><br>
+            <p style="text-align: center;">This is all skill I understand about it 90%, If you want to know more, Please click on each skill U want to see.</p><br><br><br>
+            <div class="box">
+                <div class="boxleft">
+                    <ul>
+                        <li class="active" data-me="#phyron1"><a >HTML5</a></li>
+                        <li data-me="#phyron2"><a >CSS</a></li>
+                        <li data-me="#phyron3"><a >Javascript</a></li>
+                        <li data-me="#phyron4"><a >JQuery</a></li>
+                        <li data-me="#phyron5"><a >PHP</a></li>
+                    </ul>
+                </div>
+                <div class="boxright">
+                    <div class="phyron" id="phyron1">
+                        <div class="phyron-content">
+                            <h2>About HMTL and CSS</h2><br>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, quibusdam!</p><br>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti earum pariatur obcaecati, odit est vitae harum ipsam eveniet, voluptatibus velit laborum voluptate a vel. Nam rerum quisquam iusto ipsa earum!</p>
+                            <p><i class="fa-solid fa-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <p><i class="fa-solid fa-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <p><i class="fa-solid fa-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <p><i class="fa-solid fa-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        </div>
+                        <div class="phyron-img">
+                            <img src="./HTML : CSS.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="phyron" id="phyron2">
+                        <div class="phyron-content">
+                            <h2>About CSS</h2><br>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, quibusdam!</p><br>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti earum pariatur obcaecati, odit est vitae harum ipsam eveniet, voluptatibus velit laborum voluptate a vel. Nam rerum quisquam iusto ipsa earum!</p>
+                            <p><i class="fa-solid fa-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <p><i class="fa-solid fa-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <p><i class="fa-solid fa-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <p><i class="fa-solid fa-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        </div>
+                        <div class="phyron-img">
+                            <img src="./htmlcss.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="phyron" id="phyron3">
+                        <div class="phyron-content">
+                            <h2>About Javascript</h2><br>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, quibusdam!</p><br>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti earum pariatur obcaecati, odit est vitae harum ipsam eveniet, voluptatibus velit laborum voluptate a vel. Nam rerum quisquam iusto ipsa earum!</p>
+                            <p><i class="fa-solid fa-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <p><i class="fa-solid fa-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <p><i class="fa-solid fa-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <p><i class="fa-solid fa-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        </div>
+                        <div class="phyron-img">
+                            <img src="./Javascript.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="phyron" id="phyron4">
+                        <div class="phyron-content" >
+                            <h2>About Jquery</h2><br>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, quibusdam!</p><br>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti earum pariatur obcaecati, odit est vitae harum ipsam eveniet, voluptatibus velit laborum voluptate a vel. Nam rerum quisquam iusto ipsa earum!</p>
+                            <p><i class="fa-solid fa-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <p><i class="fa-solid fa-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <p><i class="fa-solid fa-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <p><i class="fa-solid fa-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        </div>
+                        <div class="phyron-img">
+                            <img src="./Jquery.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="phyron" id="phyron5">
+                        <div class="phyron-content">
+                            <h2>About PHP</h2><br>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, quibusdam!</p><br>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti earum pariatur obcaecati, odit est vitae harum ipsam eveniet, voluptatibus velit laborum voluptate a vel. Nam rerum quisquam iusto ipsa earum!</p>
+                            <p><i class="fa-solid fa-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <p><i class="fa-solid fa-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <p><i class="fa-solid fa-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            <p><i class="fa-solid fa-check"></i>&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        </div>
+                        <div class="phyron-img">
+                            <img src="./PHP.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="course">
+        <h1 style="color: var(--color); text-align: center;">All Course</h1><br><br>
+        <div class="course-box">
+            <div class="c-box">
+                <div class="img">
+                    <img src="./htmlcss.webp" alt="">
+                    <div class="img-hover">
+                        <p style="font-size: 25px;">15$</p><br>
+                        <button id="buy-course">Buy course</button>
+                    </div>
+                </div>
+                <h1>HTML&CSS</h1><br>
+                <p>សាងសង់រូបរាង Website ជាមួយនឹងភាសា HTML CSS ជាមុនសិន។</p>
+                <a href="">#HTML</a>
+                <a href="">#CSS</a>
+            </div>
+            <div class="c-box">
+                <div class="img">
+                    <img src="./js.webp" alt="">
+                    <div class="img-hover">
+                        <p style="font-size: 25px;">25$</p><br>
+                        <button id="buy-course">Buy course</button>
+                    </div>
+                </div>
+                <h1>Javascript</h1><br>
+                <p>Programming language សម្រាប់ web Development</p>
+                <a href="">#Javascript</a>
+            </div>
+            <div class="c-box">
+                <div class="img">
+                    <img src="./typescript.webp" alt="">
+                    <div class="img-hover">
+                        <p style="font-size: 25px;">20$</p><br>
+                        <button id="buy-course">Buy course</button>
+                    </div>
+                </div>
+                <h1>Typescript</h1><br>
+                <p>បន្ថែមពីលើអ្វី ដែល Javascript មិនមាន...។</p>
+                <a href="">#Typescript</a>
+            </div>
+            <div class="c-box">
+                <div class="img">
+                    <img src="./react.webp" alt="">
+                    <div class="img-hover">
+                        <p style="font-size: 25px;">30$</p><br>
+                        <button id="buy-course">Buy course</button>
+                    </div>
+                </div>
+                <h1>React</h1><br>
+                <p>វាជា javaScript library ដ៏ល្បីមួយដើម្បីបង្កើតនូវ UI</p><br>
+                <a href="">#ReactJS</a>
+            </div>
+            <div class="c-box">
+                <div class="img">
+                    <img src="./Jquery.jpg" alt="">
+                    <div class="img-hover">
+                        <p style="font-size: 25px;">25$</p><br>
+                        <button id="buy-course">Buy course</button>
+                    </div>
+                </div>
+                <h1>JQuery</h1><br>
+                <p>យើងរៀន Jquery ដើម្បីកាត់បន្ថយកូដក្នុង​ Javascript នឹងមានភាពងាយស្រួល។</p>
+                <a href="">#Jquery</a>
+            </div>
+            <div class="c-box">
+                <div class="img">
+                    <img src="./PHP.jpg" alt="">
+                    <div class="img-hover">
+                        <p style="font-size: 25px;">45$</p><br>
+                        <button id="buy-course">Buy course</button>
+                    </div>
+                </div>
+                <h1>PHP</h1><br>
+                <p>យើងរៀន PHP ដើម្បីធ្វើការផ្ទុកទុកទិន្នន័យ​(Insert),ចាប់យកទិន្នន័យ(Select),កែទិន្នន័យ(Edit) នឹងផ្ទុកទិន្នន័យថ្មីដែលយើងបានកែ(Update)ជាដើម។</p>
+                <a href="">#PHP</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="fo">
+            <h2>​© រក្សា​សិទ្ធិ​គ្រប់​យ៉ាង​ដោយ​ <a id="pc" style="color:#0085a0;" href="">Phyron-Coding.com</a>  ឆ្នាំ​២០២៤</h2>
+            <p>រាល់ការចែកចាយ​ វីដេអូបង្រៀន ដោយគ្មានការអនុញ្ញាតិ​ ត្រូវទទួលខុសត្រូវចំពោះមុខច្បាប់។</p>
+        </div>
+    </div>
+
+<script src="./project5.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+</body>
+</html>
